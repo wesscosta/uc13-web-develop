@@ -1,0 +1,13 @@
+{
+    "id": "704165c5-9cc8-4e48-8342-bc3f54c99e94",
+    "files": [],
+    "nodes": [
+        {
+            "id": "tmp-0",
+            "name": "",
+            "value": "const a = 10;\nlet b = 20;\n\nalert(num+b)",
+            "mode": "js",
+            "outputs": []
+        }
+    ]
+}
