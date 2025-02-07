@@ -29,17 +29,16 @@ def raiz(num1,num2):
 def resto(num1,num2):
   return {'operacao':'POTENCIA', 'resultado': num1%num2}
 
-# Usando (if - elif - else)
 
 
-
-opcao = int(input('Digite o número referente a operação escolhida: \n 1 - soma \n 2 - subtração\n 3 - multiplicacao \n 4 - divisão\n 5 - porcentagem\n 6 - potencia\n 7 - raiz\n 8 - resto \n\n Escolha:'))
+opcao = int(input('Digite o número referente a operação escolhida: \n 1-soma \n 2-subtração\n 3-multiplicacao \n 4- divisão\n 5-porcentagem\n 6-potencia\n 7-raiz\n 8-resto'))
 
 a = float(input('Digite um numero: '))
 b = float(input('Digite outro numero: '))
 calc = 0
 
 
+# Usando (if - elif - else)
 if opcao == 1:
   calc = soma(a,b)
 elif opcao ==2:
